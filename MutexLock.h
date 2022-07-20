@@ -26,4 +26,19 @@ public:
 private:
     friend class Condition;//Condition's all function can get this class's private member
 };
+class MutexLockGuard: noncopyable
+{
+public:
+    explicit MutexLockGuard(MutexLock &_mutex):
+    mutex(_mutex)
+    {
+        mutex.lock();
+    }
+    ~MutexLockGuard()
+    {
+        mutex.unlock();
+    }
+private:
+    MutexLock &mutex;
+};
 #endif
