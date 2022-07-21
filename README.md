@@ -12,5 +12,5 @@ Linux C++实现的迷你http服务器
     threadPool.cpp:线程池实现，但生产者多消费者模型，条件变量实现消费者线程之间的同步；  
     timer.cpp:定时器，一个TimerNode绑定一个requestData对象，用于关闭长期不活跃连接;  
     AsyncLogging:异步日志，多生产者单消费者模型  
-
+![WebBench压测Get主页截图](https://github.com/huweiye/MyWebServer/blob/master/WebBench%E5%8E%8B%E6%B5%8BGET%E4%B8%BB%E9%A1%B5%E6%88%AA%E5%9B%BE.png)
 
