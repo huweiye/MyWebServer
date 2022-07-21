@@ -6,7 +6,7 @@ Linux C++实现的迷你http服务器
     5、尽可能使用RAII思想，如智能指针、自行对锁等资源进行类封装  
 
 
-代码简介：
+代码简介：  
     epoll.cpp:对Linux epoll的封装，并实现活跃文件描述符与RequestData对象的绑定，并在epoll_wait返回后把任务放进任务队列；  
     requestData.cpp:对http请求处理过程的抽象，实现读取、解析http请求、准备响应数据并回写等方法；  
     threadPool.cpp:线程池实现，但生产者多消费者模型，条件变量实现消费者线程之间的同步，环形任务队列；  
