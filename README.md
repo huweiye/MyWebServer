@@ -13,6 +13,6 @@ Linux C++实现的迷你http服务器
     timer.cpp:定时器，一个TimerNode绑定一个requestData对象，用于关闭长期不活跃连接;  
     AsyncLogging:异步日志，多生产者单消费者模型  
     
-    WebBench压测主页：笔记本虚拟机，每秒2000个并发请求持续60s，2.9Mb/s，100%成功
+    WebBench压测：笔记本虚拟机，Get主页请求，每秒2000个并发请求持续60s，2.9Mb/s，100%成功  
 ![WebBench压测Get主页截图](https://github.com/huweiye/MyWebServer/blob/master/WebBench%E5%8E%8B%E6%B5%8BGET%E4%B8%BB%E9%A1%B5%E6%88%AA%E5%9B%BE.png)
 
