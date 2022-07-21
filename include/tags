@@ -1,0 +1,214 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AGAIN_MAX_TIMES	requestData.h	/^const int AGAIN_MAX_TIMES = 200;$/;"	v
+ANALYSIS_ERROR	requestData.h	/^const int ANALYSIS_ERROR = -2;$/;"	v
+ANALYSIS_SUCCESS	requestData.h	/^const int ANALYSIS_SUCCESS = 0;$/;"	v
+AppendFile	FileUtil.h	/^class AppendFile : noncopyable$/;"	c
+AsyncLogging	AsyncLogging.h	/^class AsyncLogging : noncopyable$/;"	c
+Buffer	AsyncLogging.h	/^  typedef FixedBuffer<kLargeBuffer> Buffer;$/;"	t	class:AsyncLogging
+Buffer	LogStream.h	/^  typedef FixedBuffer<kSmallBuffer> Buffer;$/;"	t	class:LogStream
+BufferPtr	AsyncLogging.h	/^  typedef std::shared_ptr<Buffer> BufferPtr;$/;"	t	class:AsyncLogging
+BufferVector	AsyncLogging.h	/^  typedef std::vector<std::shared_ptr<Buffer>> BufferVector;$/;"	t	class:AsyncLogging
+Condition	Condition.h	/^    explicit Condition(MutexLock &_mutex):$/;"	f	class:Condition
+Condition	Condition.h	/^class Condition: noncopyable$/;"	c
+CountDownLatch	CountDownLatch.h	/^class CountDownLatch : noncopyable$/;"	c
+Epoll	epoll.h	/^class Epoll{$/;"	c
+FixedBuffer	LogStream.h	/^  FixedBuffer()$/;"	f	class:FixedBuffer
+FixedBuffer	LogStream.h	/^class FixedBuffer :noncopyable$/;"	c
+HTTP_10	requestData.h	/^const int HTTP_10 = 1;$/;"	v
+HTTP_11	requestData.h	/^const int HTTP_11 = 2;$/;"	v
+HTTPversion	requestData.h	/^    int HTTPversion;$/;"	m	class:RequestData
+HeaderState	requestData.h	/^enum HeaderState{$/;"	g
+Impl	Logging.h	/^    class Impl$/;"	c	class:Logger
+KEEPALIVE	requestData.h	/^const int KEEPALIVE = 5*60*1000;$/;"	v
+LOG	Logging.h	31;"	d
+LogFile	LogFile.h	/^class LogFile : noncopyable$/;"	c
+LogStream	LogStream.h	/^class LogStream : noncopyable$/;"	c
+Logger	Logging.h	/^class Logger$/;"	c
+MAX_BUFF	requestData.h	/^const int MAX_BUFF = 4096;$/;"	v
+MAX_QUEUE	threadpool.h	/^const int MAX_QUEUE = 65535;$/;"	v
+MAX_THREADS	threadpool.h	/^const int MAX_THREADS =16;$/;"	v
+METHOD_GET	requestData.h	/^const int METHOD_GET = 2;$/;"	v
+METHOD_POST	requestData.h	/^const int METHOD_POST = 1;$/;"	v
+MimeType	requestData.h	/^class MimeType{$/;"	c
+MutexLock	MutexLock.h	/^    MutexLock(){$/;"	f	class:MutexLock
+MutexLock	MutexLock.h	/^class MutexLock:noncopyable{$/;"	c
+MutexLockGuard	MutexLock.h	/^    explicit MutexLockGuard(MutexLock &_mutex):$/;"	f	class:MutexLockGuard
+MutexLockGuard	MutexLock.h	/^class MutexLockGuard: noncopyable$/;"	c
+PARSE_HEADER_AGAIN	requestData.h	/^const int PARSE_HEADER_AGAIN = -1;$/;"	v
+PARSE_HEADER_ERROR	requestData.h	/^const int PARSE_HEADER_ERROR = -2;$/;"	v
+PARSE_HEADER_SUCCESS	requestData.h	/^const int PARSE_HEADER_SUCCESS = 0;$/;"	v
+PARSE_URI_AGAIN	requestData.h	/^const int PARSE_URI_AGAIN = -1;$/;"	v
+PARSE_URI_ERROR	requestData.h	/^const int PARSE_URI_ERROR = -2;$/;"	v
+PARSE_URI_SUCCESS	requestData.h	/^const int PARSE_URI_SUCCESS = 0;$/;"	v
+RequestData	requestData.h	/^class RequestData:public std::enable_shared_from_this<RequestData>{$/;"	c
+SP_ReqData	timer.h	/^    typedef std::shared_ptr<RequestData> SP_ReqData;$/;"	t	class:TimerManager
+SP_ReqData	timer.h	/^    typedef std::shared_ptr<RequestData> SP_ReqData;$/;"	t	class:TimerNode
+SP_TimerNode	timer.h	/^    typedef std::shared_ptr<TimerNode> SP_TimerNode;$/;"	t	class:TimerManager
+STATE_ANALYSIS	requestData.h	/^const int STATE_ANALYSIS = 4;$/;"	v
+STATE_FINISH	requestData.h	/^const int STATE_FINISH = 5;$/;"	v
+STATE_PARSE_HEADERS	requestData.h	/^const int STATE_PARSE_HEADERS = 2;$/;"	v
+STATE_PARSE_URI	requestData.h	/^const int STATE_PARSE_URI = 1;$/;"	v
+STATE_RECV_BODY	requestData.h	/^const int STATE_RECV_BODY = 3;$/;"	v
+ShutDownOption	threadpool.h	/^} ShutDownOption;$/;"	t	typeref:enum:__anon1
+THREADPOOL_GRACEFUL	threadpool.h	/^const int THREADPOOL_GRACEFUL = 1;$/;"	v
+THREADPOOL_INVALID	threadpool.h	/^const int THREADPOOL_INVALID = -1;$/;"	v
+THREADPOOL_LOCK_FAILURE	threadpool.h	/^const int THREADPOOL_LOCK_FAILURE = -2;$/;"	v
+THREADPOOL_QUEUE_FULL	threadpool.h	/^const int THREADPOOL_QUEUE_FULL = -3;$/;"	v
+THREADPOOL_SHUTDOWN	threadpool.h	/^const int THREADPOOL_SHUTDOWN = -4;$/;"	v
+THREADPOOL_THREAD_FAILURE	threadpool.h	/^const int THREADPOOL_THREAD_FAILURE = -5;$/;"	v
+Thread	Thread.h	/^class Thread : noncopyable$/;"	c
+ThreadFunc	Thread.h	/^  typedef std::function<void ()> ThreadFunc;$/;"	t	class:Thread
+ThreadPool	threadpool.h	/^class ThreadPool{$/;"	c
+ThreadPoolTask	threadpool.h	/^struct ThreadPoolTask{\/\/one task in task_queue$/;"	s
+TimerManager	timer.h	/^class TimerManager{$/;"	c
+TimerNode	timer.h	/^class TimerNode{$/;"	c
+TimerPriorityQueue	timer.h	/^    std::priority_queue<SP_TimerNode,std::vector<SP_TimerNode>,timerCMP> TimerPriorityQueue;$/;"	m	class:TimerManager
+_CONFIG_H_	config.h	2;"	d
+_EPOLL_H_	epoll.h	2;"	d
+_MUTEXLOCK_H_	MutexLock.h	2;"	d
+_NONCOPYABLE_H_	noncopyable.h	2;"	d
+_REQUESTDATA_H_	requestData.h	2;"	d
+_THREADPOOL_H_	threadpool.h	2;"	d
+_TIMER_H_	timer.h	2;"	d
+_UTILS_H_	utils.h	2;"	d
+add	LogStream.h	/^  void add(size_t len) { cur_ += len; }$/;"	f	class:FixedBuffer
+append	LogStream.h	/^  void append(const char* buf, size_t len)$/;"	f	class:FixedBuffer
+append	LogStream.h	/^  void append(const char* data, int len) { buffer_.append(data, len); }$/;"	f	class:LogStream
+args	threadpool.h	/^    std::shared_ptr<void> args;\/\/shi ji shang jiu shi requestdata dui xiang$/;"	m	struct:ThreadPoolTask
+avail	LogStream.h	/^  int avail() const { return static_cast<int>(end() - cur_); }$/;"	f	class:FixedBuffer
+basename_	AsyncLogging.h	/^  std::string basename_;$/;"	m	class:AsyncLogging
+basename_	LogFile.h	/^  const std::string basename_;$/;"	m	class:LogFile
+basename_	Logging.h	/^        std::string basename_;$/;"	m	class:Logger::Impl
+buffer	LogStream.h	/^  const Buffer& buffer() const { return buffer_; }$/;"	f	class:LogStream
+buffer_	FileUtil.h	/^    char buffer_[64*1024];$/;"	m	class:AppendFile
+buffer_	LogStream.h	/^  Buffer buffer_;$/;"	m	class:LogStream
+buffers_	AsyncLogging.h	/^  BufferVector buffers_;$/;"	m	class:AsyncLogging
+bzero	LogStream.h	/^  void bzero() { memset(data_, 0, sizeof data_); }$/;"	f	class:FixedBuffer
+cond	Condition.h	/^    pthread_cond_t cond;$/;"	m	class:Condition
+cond_	AsyncLogging.h	/^  Condition cond_;$/;"	m	class:AsyncLogging
+condition_	CountDownLatch.h	/^    Condition condition_;$/;"	m	class:CountDownLatch
+count	threadpool.h	/^    static int count;$/;"	m	class:ThreadPool
+count_	CountDownLatch.h	/^    int count_;$/;"	m	class:CountDownLatch
+count_	LogFile.h	/^  int count_;$/;"	m	class:LogFile
+cur_	LogStream.h	/^  char* cur_;$/;"	m	class:FixedBuffer
+current	LogStream.h	/^  char* current() { return cur_; }$/;"	f	class:FixedBuffer
+currentBuffer_	AsyncLogging.h	/^  BufferPtr currentBuffer_;$/;"	m	class:AsyncLogging
+data	LogStream.h	/^  const char* data() const { return data_; }$/;"	f	class:FixedBuffer
+data_	LogStream.h	/^  char data_[SIZE];$/;"	m	class:FixedBuffer
+deleted	timer.h	/^    bool deleted;\/\/should it be deleted,if true,when Timermanager::handle_expired_event() call,remove it from priority_queue $/;"	m	class:TimerNode
+efd	epoll.h	/^    static int efd;$/;"	m	class:Epoll
+efd	requestData.h	/^    int efd;$/;"	m	class:RequestData
+end	LogStream.h	/^  const char* end() const { return data_ + sizeof data_; }$/;"	f	class:FixedBuffer
+error	requestData.h	/^    bool error;$/;"	m	class:RequestData
+event_v	epoll.h	/^    static std::vector<struct epoll_event> event_v;\/\/vector of epoll_event$/;"	m	class:Epoll
+events	requestData.h	/^    __uint32_t events;$/;"	m	class:RequestData
+expired_time	timer.h	/^    size_t expired_time;\/\/chao shi shi ke, jue dui shi jian,expired_timedan wei hao miao $/;"	m	class:TimerNode
+fd	requestData.h	/^    int fd;$/;"	m	class:RequestData
+fd2reqdata_v	epoll.h	/^    static std::vector<std::shared_ptr<RequestData>> fd2reqdata_v;\/\/vector of fd->requestdata$/;"	m	class:Epoll
+file_	LogFile.h	/^  std::unique_ptr<AppendFile> file_;$/;"	m	class:LogFile
+file_name	requestData.h	/^    std::string file_name;$/;"	m	class:RequestData
+flushEveryN_	LogFile.h	/^  const int flushEveryN_;$/;"	m	class:LogFile
+flushInterval_	AsyncLogging.h	/^  const int flushInterval_;$/;"	m	class:AsyncLogging
+fp_	FileUtil.h	/^    FILE* fp_;$/;"	m	class:AppendFile
+func	threadpool.h	/^    std::function<void(std::shared_ptr<void>)> func;\/\/jiu shi MyHandler() han shu$/;"	m	struct:ThreadPoolTask
+func_	Thread.h	/^  ThreadFunc func_;$/;"	m	class:Thread
+getlock	MutexLock.h	/^    pthread_mutex_t * getlock(){$/;"	f	class:MutexLock
+graceful_shutdown	threadpool.h	/^    graceful_shutdown  = 2$/;"	e	enum:__anon1
+h_CR	requestData.h	/^    h_CR,$/;"	e	enum:HeaderState
+h_LF	requestData.h	/^    h_LF,$/;"	e	enum:HeaderState
+h_colon	requestData.h	/^    h_colon,$/;"	e	enum:HeaderState
+h_end_CR	requestData.h	/^    h_end_CR,$/;"	e	enum:HeaderState
+h_end_LF	requestData.h	/^    h_end_LF$/;"	e	enum:HeaderState
+h_key	requestData.h	/^    h_key,$/;"	e	enum:HeaderState
+h_spaces_after_colon	requestData.h	/^    h_spaces_after_colon,$/;"	e	enum:HeaderState
+h_start	requestData.h	/^    h_start=0,$/;"	e	enum:HeaderState
+h_state	requestData.h	/^    int h_state;$/;"	m	class:RequestData
+h_value	requestData.h	/^    h_value,$/;"	e	enum:HeaderState
+head	threadpool.h	/^    static int head;$/;"	m	class:ThreadPool
+headers	requestData.h	/^    std::unordered_map<std::string, std::string> headers;$/;"	m	class:RequestData
+immediate_shutdown	threadpool.h	/^    immediate_shutdown = 1,$/;"	e	enum:__anon1
+impl_	Logging.h	/^    Impl impl_;$/;"	m	class:Logger
+inBuffer	requestData.h	/^    std::string inBuffer;$/;"	m	class:RequestData
+isAbleRead	requestData.h	/^    bool isAbleRead;$/;"	m	class:RequestData
+isAbleWrite	requestData.h	/^    bool isAbleWrite;$/;"	m	class:RequestData
+isfinish	requestData.h	/^    bool isfinish;$/;"	m	class:RequestData
+joined_	Thread.h	/^  bool       joined_;$/;"	m	class:Thread
+kLargeBuffer	LogStream.h	/^const int kLargeBuffer = 4000*1000;$/;"	v
+kMaxNumericSize	LogStream.h	/^  static const int kMaxNumericSize = 32;$/;"	m	class:LogStream
+kSmallBuffer	LogStream.h	/^const int kSmallBuffer = 4000;$/;"	v
+keep_alive	requestData.h	/^    bool keep_alive;$/;"	m	class:RequestData
+latch_	AsyncLogging.h	/^  CountDownLatch latch_;$/;"	m	class:AsyncLogging
+latch_	Thread.h	/^  CountDownLatch latch_;$/;"	m	class:Thread
+length	LogStream.h	/^  int length() const { return static_cast<int>(cur_ - data_); }$/;"	f	class:FixedBuffer
+line_	Logging.h	/^        int line_;$/;"	m	class:Logger::Impl
+lock	MutexLock.h	/^    void lock(){$/;"	f	class:MutexLock
+lock	threadpool.h	/^    static pthread_mutex_t lock;$/;"	m	class:ThreadPool
+method	requestData.h	/^    int method;$/;"	m	class:RequestData
+mime	requestData.h	/^    static std::unordered_map<std::string,std::string> mime;$/;"	m	class:MimeType
+mutex	Condition.h	/^    MutexLock &mutex;$/;"	m	class:Condition
+mutex	MutexLock.h	/^    MutexLock &mutex;$/;"	m	class:MutexLockGuard
+mutex	MutexLock.h	/^    pthread_mutex_t mutex;$/;"	m	class:MutexLock
+mutex_	AsyncLogging.h	/^  MutexLock mutex_;$/;"	m	class:AsyncLogging
+mutex_	CountDownLatch.h	/^    mutable MutexLock mutex_;$/;"	m	class:CountDownLatch
+mutex_	LogFile.h	/^  std::unique_ptr<MutexLock> mutex_;$/;"	m	class:LogFile
+mutexlock	timer.h	/^    MutexLock mutexlock;\/\/this TimerManager is Critical resource,need mutex $/;"	m	class:TimerManager
+name	Thread.h	/^  const std::string& name() const { return name_; }$/;"	f	class:Thread
+name_	Thread.h	/^  std::string     name_;$/;"	m	class:Thread
+nextBuffer_	AsyncLogging.h	/^  BufferPtr nextBuffer_;$/;"	m	class:AsyncLogging
+noncopyable	noncopyable.h	/^    noncopyable(){};$/;"	f	class:noncopyable
+noncopyable	noncopyable.h	/^class noncopyable{$/;"	c
+notify	Condition.h	/^    void notify()$/;"	f	class:Condition
+notifyAll	Condition.h	/^    void notifyAll()$/;"	f	class:Condition
+now_read_pos	requestData.h	/^    int now_read_pos;$/;"	m	class:RequestData
+once_control	requestData.h	/^    static pthread_once_t once_control;$/;"	m	class:MimeType
+operator ()	timer.h	/^    bool operator()(std::shared_ptr<TimerNode>&a,std::shared_ptr<TimerNode>&b)const{$/;"	f	struct:timerCMP
+operator <<	LogStream.h	/^  self& operator<<(bool v)$/;"	f	class:LogStream
+operator <<	LogStream.h	/^  self& operator<<(char v)$/;"	f	class:LogStream
+operator <<	LogStream.h	/^  self& operator<<(const char* str)$/;"	f	class:LogStream
+operator <<	LogStream.h	/^  self& operator<<(const std::string& v)$/;"	f	class:LogStream
+operator <<	LogStream.h	/^  self& operator<<(const unsigned char* str)$/;"	f	class:LogStream
+operator <<	LogStream.h	/^  self& operator<<(float v)$/;"	f	class:LogStream
+outBuffer	requestData.h	/^    std::string outBuffer;$/;"	m	class:RequestData
+path	requestData.h	/^    std::string path;$/;"	m	class:RequestData
+pthreadId_	Thread.h	/^  pthread_t  pthreadId_;$/;"	m	class:Thread
+queue_size	threadpool.h	/^    static int queue_size;$/;"	m	class:ThreadPool
+request_data	timer.h	/^    SP_ReqData request_data;\/\/pointer to this timer associate request $/;"	m	class:TimerNode
+reset	LogStream.h	/^  void reset() { cur_ = data_; }$/;"	f	class:FixedBuffer
+resetBuffer	LogStream.h	/^  void resetBuffer() { buffer_.reset(); }$/;"	f	class:LogStream
+running_	AsyncLogging.h	/^  bool running_;$/;"	m	class:AsyncLogging
+self	LogStream.h	/^  typedef LogStream self;$/;"	t	class:LogStream
+shutdown	threadpool.h	/^    static int shutdown;$/;"	m	class:ThreadPool
+start	AsyncLogging.h	/^  void start()$/;"	f	class:AsyncLogging
+started	Thread.h	/^  bool started() const { return started_; }$/;"	f	class:Thread
+started	threadpool.h	/^    static int started;$/;"	m	class:ThreadPool
+started_	Thread.h	/^  bool       started_;$/;"	m	class:Thread
+state	requestData.h	/^    int state;$/;"	m	class:RequestData
+stitch	requestData.h	/^    cv::Mat stitch(cv::Mat &src){$/;"	f	class:RequestData
+stop	AsyncLogging.h	/^  void stop()$/;"	f	class:AsyncLogging
+stream	Logging.h	/^    LogStream& stream() { return impl_.stream_; }$/;"	f	class:Logger
+stream_	Logging.h	/^        LogStream stream_;$/;"	m	class:Logger::Impl
+tail	threadpool.h	/^    static int tail;$/;"	m	class:ThreadPool
+task_queue	threadpool.h	/^    static std::vector<ThreadPoolTask> task_queue;$/;"	m	class:ThreadPool
+task_queue_not_empty	threadpool.h	/^    static pthread_cond_t task_queue_not_empty;$/;"	m	class:ThreadPool
+thread_	AsyncLogging.h	/^  Thread thread_;$/;"	m	class:AsyncLogging
+thread_count	threadpool.h	/^    static int thread_count;$/;"	m	class:ThreadPool
+threads	threadpool.h	/^    static std::vector<pthread_t> threads;$/;"	m	class:ThreadPool
+tid	Thread.h	/^  pid_t tid() const { return tid_; }$/;"	f	class:Thread
+tid_	Thread.h	/^  pid_t      tid_;$/;"	m	class:Thread
+timer	requestData.h	/^    std::weak_ptr<TimerNode> timer;$/;"	m	class:RequestData
+timerCMP	timer.h	/^struct timerCMP{\/\/func-obj,chong zai le () yunsuanfu$/;"	s
+timer_manager	epoll.h	/^    static TimerManager timer_manager;$/;"	m	class:Epoll
+unlock	MutexLock.h	/^    void unlock(){$/;"	f	class:MutexLock
+wait	Condition.h	/^    void wait()$/;"	f	class:Condition
+waitForSeconds	Condition.h	/^    bool waitForSeconds(int seconds)$/;"	f	class:Condition
+~AsyncLogging	AsyncLogging.h	/^  ~AsyncLogging()$/;"	f	class:AsyncLogging
+~Condition	Condition.h	/^    ~Condition()$/;"	f	class:Condition
+~FixedBuffer	LogStream.h	/^  ~FixedBuffer()$/;"	f	class:FixedBuffer
+~MutexLock	MutexLock.h	/^    ~MutexLock(){$/;"	f	class:MutexLock
+~MutexLockGuard	MutexLock.h	/^    ~MutexLockGuard()$/;"	f	class:MutexLockGuard
+~noncopyable	noncopyable.h	/^    ~noncopyable(){};$/;"	f	class:noncopyable
