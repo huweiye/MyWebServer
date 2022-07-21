@@ -9,7 +9,7 @@ Linux C++实现的迷你http服务器
 代码简介：  
     epoll.cpp:对Linux epoll的封装，并实现活跃文件描述符与RequestData对象的绑定，并在epoll_wait返回后把任务放进任务队列；  
     requestData.cpp:对http请求处理过程的抽象，实现读取、解析http请求、准备响应数据并回写等方法；  
-    threadPool.cpp:线程池实现，但生产者多消费者模型，条件变量实现消费者线程之间的同步，环形任务队列；  
+    threadPool.cpp:线程池实现，但生产者多消费者模型，条件变量实现消费者线程之间的同步；  
     timer.cpp:定时器，一个TimerNode绑定一个requestData对象，用于关闭长期不活跃连接;  
     AsyncLogging:异步日志，多生产者单消费者模型  
 
