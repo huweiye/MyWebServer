@@ -1,4 +1,3 @@
-
 Linux C++实现的迷你http服务器
     1、IO并发模型：one event loop+worker threadpool的Reactor模式，使用epoll ET模式+非阻塞IO
     2、小根堆实现的计时器关闭超时请求
